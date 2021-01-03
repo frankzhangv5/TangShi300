@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android" 
+    xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="app_name">唐诗三百首</string>
+    <string name="tangshi">唐诗三百首</string>
+    <string name="poem_count">第 <xliff:g id="NUM">%1$s</xliff:g> 首</string>
+
+    <string name="remark">注释:</string>
+    <string name="translation">译文:</string>
+    <string name="analysis">赏析:</string>
+
+    <string name="app_author">张峰</string>
+    <string name="app_ver">v1.0.0</string>
+    <string name="app_release">2015年 04月 26日 星期日 22:34:25 CST</string>
+
+    <string name="desc">dummy</string>
+</resources>

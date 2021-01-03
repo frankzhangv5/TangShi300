@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@android:color/white"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="241dp"
+        android:layout_height="0dp"
+        android:layout_weight="5"
+        android:gravity="center"
+        android:text="@string/tangshi"
+        android:textSize="40sp"
+        android:textStyle="normal|bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="4"
+        android:gravity="right|bottom" >
+
+        <ImageView
+            android:contentDescription="@string/desc"
+            android:layout_width="141dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/lotus" />
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="right|bottom" >
+
+        <ImageView
+            android:layout_width="132dp"
+            android:layout_height="34dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:contentDescription="@string/desc"
+            android:src="@drawable/author" />
+
+    </LinearLayout>
+
+</LinearLayout>
